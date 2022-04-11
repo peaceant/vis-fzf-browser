@@ -4,6 +4,9 @@ Use [fzf](https://github.com/junegunn/fzf) to browse files in [vis](https://gith
 
 Did not spent much time writing this plugin. Use at your own risk.
 
+
+![fzf-browser](https://user-images.githubusercontent.com/12976480/162830762-17282fd9-370e-4357-9f43-81a5b99fb822.gif)
+
 ## Usage
 
 In vis:
@@ -27,3 +30,4 @@ vis.events.subscribe(vis.events.INIT, function()
     vis:map(vis.modes.NORMAL, " e", ":fzfbrowser<Enter>")
 end)
 ```
+
